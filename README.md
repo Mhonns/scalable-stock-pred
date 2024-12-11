@@ -5,7 +5,8 @@ This project combines technical analysis using Recurrent Neural Networks (RNN) a
 
 
 ## Project Structure
-├── crawler/
+`
+├── crawler/ 
 │ └── # Data scraping scripts for Yahoo News
 ├── data/
 │ └── # Stored scraped news data and stock price data
@@ -15,6 +16,7 @@ This project combines technical analysis using Recurrent Neural Networks (RNN) a
 │ ├── final_ann.py # Final ANN model combining both predictions
 │ └── model_parameters/ # Stored model parameters and weights
 └── final_ann_full.py # Main execution script
+`
 
 
 ## Features
@@ -42,15 +44,16 @@ This project combines technical analysis using Recurrent Neural Networks (RNN) a
 - News headlines are scraped from Yahoo Finance
 - Data is stored in the `data/` directory
 
-## Results
-TODO
-
-## Installation
-1. Clone the repository:
+## To run the prediction
 bash
 `
-git clone https://github.com/yourusername/stock-prediction.git
-cd stock-prediction
+python final_ann_full.py
+`
+
+## To run the crawler
+bash
+`
+python crawler/pipeline.py
 `
 
 2. Install the required packages:
