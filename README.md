@@ -6,16 +6,16 @@ This project combines technical analysis using Recurrent Neural Networks (RNN) a
 
 ## Project Structure
 `
-├── crawler/ 
-│ └── # Data scraping scripts for Yahoo News
+├── crawler/
+│   └── # Data scraping scripts for Yahoo News
 ├── data/
-│ └── # Stored scraped news data and stock price data
+│   └── # Stored scraped news data and stock price data
 ├── models/
-│ ├── sentiment_analysis.py # Sentiment analysis model
-│ ├── rnn_prediction.py # RNN model for technical analysis
-│ ├── final_ann.py # Final ANN model combining both predictions
-│ └── model_parameters/ # Stored model parameters and weights
-└── final_ann_full.py # Main execution script
+│   ├── sentiment_analysis.py    # Sentiment analysis model
+│   ├── rnn_prediction.py        # RNN model for technical analysis
+│   ├── final_ann.py            # Final ANN model combining both predictions
+│   └── model_parameters/        # Stored model parameters and weights
+└── final_ann_full.py           # Main execution script
 `
 
 
