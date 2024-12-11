@@ -5,7 +5,6 @@ This project combines technical analysis using Recurrent Neural Networks (RNN) a
 
 
 ## Project Structure
-`
 crawler/
     # Data scraping scripts for Yahoo News
 data/
@@ -16,7 +15,6 @@ models/
     final_ann.py            # Final ANN model combining both predictions
     # Stored model parameters and weights
 final_ann_full.py           # Main execution script
-`
 
 
 ## Features
